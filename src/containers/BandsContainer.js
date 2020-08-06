@@ -6,7 +6,7 @@ import { Band } from '../components/Band'
 class BandsContainer extends Component {
 
   render() {
-    debugger
+  
     let bands = this.props.bands.map((band, i) => {
       return <Band key={i} band={band}/>
     })
